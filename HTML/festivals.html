@@ -1,0 +1,506 @@
+<!--
+Student name and number: Jenied Sayago, C22380473
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GigGuru</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="../CSS/style.css">
+</head>
+
+<body>
+  <section class="main">
+    <!--Navbar-->
+    <div class="progress-container sticky-top">
+      <nav class="navbar sticky-top navbar-expand-lg navbar-dark navbar-bg">
+        <div class="container-fluid">
+          <a class="navbar-brand m-2 p-1" href="index.html">GigGuru</a>
+          <button class="navbar-toggler m-1 " type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler"
+            aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarToggler">
+            <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="concerts.html">Concerts</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Festivals</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="news.html">News</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="progress-bar" id="myBar"></div>
+    </div>
+
+
+    <!-- Full Page Image Header with Vertically Centered Content -->
+    <header class="masthead2">
+      <div class="container h-100">
+        <div class="row h-100 align-items-center">
+          <div class="col-12 text-center">
+            <h1 class="fw-light fw-color">Upcoming Festivals</h1>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Page Content -->
+
+    <section class="py-5">
+      <div class="container">
+
+        <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+            <li class="breadcrumb-item"><a href="concerts.html">Concerts</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Festivals</li>
+            <li class="breadcrumb-item"><a href="news.html">News</a></li>
+            <li class="breadcrumb-item"><a href="contact.html">Contact</a></li>
+          </ol>
+        </nav>
+
+        <header>
+          <h2 class="featurette-heading">Featured Festivals. <span class="text-muted">Coming Soon... 2023.</span></h2>
+          <p class="lead">Don't Miss Out! Here are some of the most anticipated festivals around the world...</p>
+        </header>
+
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <a href="#coachella">
+              <div class="card">
+                <img src="../Images/Coachella.jpg" class="card-img-top" alt="Coachella">
+                <div class="card-body">
+                  <h5 class="card-title text-dark">Coachella (US)</h5>
+                  <small class="fst-italic text-dark">(Image via Coachella)</small>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col">
+            <a href="#glastonbury">
+              <div class="card">
+                <img src="../Images/Glastonbury.jpg" class="card-img-top" alt="Glastonbury">
+                <div class="card-body">
+                  <h5 class="card-title text-dark">Glastonbury (UK)</h5>
+                  <small class="fst-italic text-dark">(Image via Andrew Allcock / Glastonbury)</small>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col">
+            <a href="#electricpicnic">
+              <div class="card">
+                <img src="../Images/ElectricPicnic.jpg" class="card-img-top" alt="Electric Picnic">
+                <div class="card-body">
+                  <h5 class="card-title text-dark">Electric Picnic (IRL)</h5>
+                  <small class="fst-italic text-dark">(Image via Electric Picnic)</small>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col">
+            <a href="#sziget">
+              <div class="card">
+                <img src="../Images/Sziget.jpg" class="card-img-top" alt="Sziget">
+                <div class="card-body">
+                  <h5 class="card-title text-dark">Sziget (HUN)</h5>
+                  <small class="fst-italic text-dark">(Image via Sziget)</small>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col">
+            <a href="#tomorrowland">
+              <div class="card">
+                <img src="../Images/Tomorrowland.jpg" class="card-img-top" alt="Tomorrowland - Winter">
+                <div class="card-body">
+                  <h5 class="card-title text-dark">Tomorrowland - Winter Festival (FR)</h5>
+                  <small class="fst-italic text-dark">(Image via Tomorrowland)</small>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col">
+            <a href="#lollapalooza">
+              <div class="card">
+                <img src="../Images/Lollapalooza.jpg" class="card-img-top" alt="Lollapalooza">
+                <div class="card-body">
+                  <h5 class="card-title text-dark">Lollapalooza - South America</h5>
+                  <small class="fst-italic text-dark">(Image via Michael Hickey/Getty Images)</small>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <hr class="featurette-divider">
+        <h2 class="featurette-heading display-5">Festival Headliners</h2>
+        <p class="lead display">Find your fave artists at these festivals below!</p>
+
+        <!-- START THE FEATURETTES -->
+
+        <div id="coachella"></div>
+        <hr class="featurette-divider">
+        <div class="row featurette">
+          <div class="col-md-7 order-md-2 p-5 text-light bg-dark">
+
+            <h1 class="fw-light">Days until Coachella:</h1>
+            <p id="demo" class="fs-3"></p>
+            <h2 class="featurette-heading display-5 ">Coachella - 2023<br> <span class="text-muted">The Line Up so
+                far...</span></h2>
+            <div class="cards-wrapper">
+              <div class="card cardno hlnimg">
+                <img class="card-img" src="../Images/Frank Ocean.jpg" alt="Frank Ocean">
+                <div class="card-img-overlay text-white d-flex justify-content-start align-items-end">
+                  <p class="fs-4">Frank Ocean<br><small class="fst-italic fs-6">(Image via British GQ)</small></p>
+                </div>
+              </div>
+            </div>
+            <br>
+            <p class="lead display">More artists To Be Announced! This year's 2022 line-up included:</p>
+            <ul>
+              <li>Harry Styles</li>
+              <li>Megan Thee Stallion</li>
+              <li>The Weeknd</li>
+              <li>Billie Eilish and many more...</li>
+            </ul>
+            <p class="lead display">Similar big acts are hopefully set for next years line-up!</p>
+            <a type="button" class="btn btn-secondary btn-sm p-2" href="https://www.coachella.com/">Find out More...</a>
+
+          </div>
+          <div class="col-md-5 order-md-1">
+            <img class="featurette-image2  img-fluid mx-auto m-5" img src="../Images/FestivalPic2.jpg" alt="ConcertPic">
+
+          </div>
+        </div>
+        <div id="glastonbury"></div>
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+          <div class="col-md-7 p-5 text-light bg-dark">
+            <h2 class="featurette-heading display-5">Glastonbury - 2023<br><span class="text-muted">The Line Up so
+                far...</span></h2>
+            <div class="cards-wrapper">
+              <div class="card cardno hlnimg">
+                <img class="card-img" src="../Images/EltonJohn.jpg" alt="Elton John">
+                <div class="card-img-overlay text-white d-flex justify-content-start align-items-end">
+                  <p class="fs-4">Elton John<br><small class="fst-italic fs-6">(Image via Universal Music)</small></p>
+                </div>
+              </div>
+            </div>
+            <br>
+            <p class="lead display">More artists To Be Announced! This year's 2022 line-up included:</p>
+            <ul>
+              <li>Kendrick Lamar</li>
+              <li>Paul McCartney</li>
+              <li>Olivia Rodrigo</li>
+              <li>Wet Leg</li>
+              <li>Billie Eilish and many more...</li>
+            </ul>
+            <p class="lead display">Similar big acts are hopefully set for next years line-up!</p>
+            <a type="button" class="btn btn-secondary btn-sm p-2" href="https://www.glastonburyfestivals.co.uk/">Find
+              out More...</a>
+
+          </div>
+          <div class="col-md-5">
+            <img class="featurette-image2 float-right img-fluid mx-auto m-5" img src="../Images/FestivalPic4.jpg"
+              alt="FestivalPic">
+          </div>
+        </div>
+
+        <div id="electricpicnic"></div>
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+          <div class="col-md-7 order-md-2 p-5  text-light bg-dark">
+            <h2 class="featurette-heading display-5">Electric Picnic 2023<br> <span class="text-muted">The Line
+                Up...</span></h2>
+            <div class="cards-wrapper">
+              <div class="px-wide">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                  <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                      class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                      aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                      aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                      aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                      aria-label="Slide 5"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"
+                      aria-label="Slide 6"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6"
+                      aria-label="Slide 7"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7"
+                      aria-label="Slide 8"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="8"
+                      aria-label="Slide 9"></button>
+                  </div>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="../Images/EP1.jpg" class="d-block w-100" alt="Billie Eilish">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../Images/EP2.jpg" class="d-block w-100" alt="Lewis Capaldi">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../Images/EP3.jpg" class="d-block w-100" alt="Fred Again...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../Images/EP4.jpg" class="d-block w-100" alt="Niall Horan">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../Images/EP5.jpg" class="d-block w-100" alt="Steve Lacy">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../Images/EP6.jpg" class="d-block w-100" alt="Idles">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../Images/EP7.jpg" class="d-block w-100" alt="Jamie XX">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../Images/EP8.jpg" class="d-block w-100" alt="Tom Odell">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../Images/EP9.jpg" class="d-block w-100" alt="Rick Astley">
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                      data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                      data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <br><a type="button" class="btn btn-secondary btn-sm p-2"
+              href="https://www.electricpicnic.ie/?_gl=1*1wk4i4s*_up*MQ..*_ga*MzU0NDkyODk5LjE2NzAzNjc3MTY.*_ga_DSMQH149PB*MTY3MDM2NzcxNS4xLjAuMTY3MDM2NzcxNS4wLjAuMA..">Find
+              out More...</a>
+            <small class="fst-italic fs-6 p-5">(Images via Electric Picnic)</small>
+          </div>
+          <div class="col-md-5 order-md-1">
+            <img class="featurette-image2 float-left img-fluid mx-auto m-5" img src="../Images/Pic5.jpg"
+              alt="ConcertPic">
+
+          </div>
+        </div>
+
+        <div id="sziget"></div>
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+          <div class="col-md-7 p-5  text-light bg-dark">
+            <h2 class="featurette-heading display-5">Sziget <br> <span class="text-muted">The Line Up...</span></h2>
+            <div class="cards-wrapper">
+              <div class="px-wide2">
+                <div id="carouselExampleIndicators2" class="carousel slide" data-bs-ride="true">
+                  <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="0"
+                      class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="1"
+                      aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="2"
+                      aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="3"
+                      aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="4"
+                      aria-label="Slide 5"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="5"
+                      aria-label="Slide 6"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="6"
+                      aria-label="Slide 7"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="7"
+                      aria-label="Slide 8"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="8"
+                      aria-label="Slide 9"></button>
+                  </div>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="../Images/SZ1.jpg" class="d-block w-100" alt="Billie Eilish">
+                      <div class="carousel-caption d-none d-md-block  text-lg-start">
+                        <h5>Billie Eilish</h5>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../Images/SZ2.jpg" class="d-block w-100" alt="David Guetta">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>David Guetta</h5>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../Images/SZ3.jpg" class="d-block w-100" alt="Florence and the Machine">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>Florence and the Machine</h5>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../Images/SZ4.jpg" class="d-block w-100" alt="Imagine Dragons">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>Imagine Dragons</h5>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../Images/SZ5.jpg" class="d-block w-100" alt="Sam Fender">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>Sam Fender</h5>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../Images/SZ6.jpg" class="d-block w-100" alt="Niall Horan">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>Niall Horan</h5>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators2"
+                      data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators2"
+                      data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <br><a type="button" class="btn btn-secondary btn-sm p-2" href="https://szigetfestival.com/en/programs">Find
+              out More...</a>
+            <small class="fst-italic fs-6 p-5">(Images via Sziget)</small>
+          </div>
+          <div class="col-md-5">
+            <img class="featurette-image2 float-right img-fluid mx-auto m-5" img src="../Images/Pic3.jpg"
+              alt="FestivalPic 2">
+
+          </div>
+        </div>
+
+        <div id="tomorrowland"></div>
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+          <div class="col-md-7 order-md-2 p-5  text-light bg-dark">
+            <h2 class="featurette-heading display-5">Tomorrowland - Winter Festival<br> <span class="text-muted">The
+                Line Up...</span></h2>
+            <div class="cards-wrapper">
+              <div class="card cardno hlnimg2">
+                <img class="card-img" src="../Images/Afrojack.jpg" alt="Afrojack">
+                <div class="card-img-overlay text-white d-flex justify-content-start align-items-end">
+                  <p class="fs-4">Afrojack<br><small class="fst-italic fs-6">(Image via Business Insider)</small></p>
+                </div>
+              </div>
+            </div>
+            <br>
+            <p class="lead display">Full line up is coming soon but here's The 2023 Winter line-up so far:</p>
+            <ul>
+              <li>Martin Garrix</li>
+              <li>Steve Aoki</li>
+              <li>and much more...</li>
+            </ul>
+            <a type="button" class="btn btn-secondary btn-sm p-2"
+              href="https://www.tomorrowland.com/en/winter/line-up">Find out More...</a>
+
+          </div>
+          <div class="col-md-5 order-md-1">
+            <img class="featurette-image2 float-left img-fluid mx-auto m-5" img src="../Images/Dj.jpg" alt="ConcertPic">
+
+          </div>
+        </div>
+
+        <div id="lollapalooza"></div>
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+          <div class="col-md-7 p-5  text-light bg-dark">
+            <h2 class="featurette-heading display-5">Lalapalooza - South America <br> <span class="text-muted">The Line
+                Up...</span></h2>
+            <div class="cards-wrapper">
+              <div class="card cardno hlnimg2">
+                <img class="card-img" src="../Images/Drake.jpg" alt="Drake">
+                <div class="card-img-overlay text-white d-flex justify-content-start align-items-end">
+                  <p class="fs-4 text-dark">Drake<br><small class="fst-italic fs-6">(Image via Astral/Billboard)</small>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <br>
+            <p class="lead display">Full line up is coming soon but here's The South American line-up so far:</p>
+            <ul>
+              <li>Billie Eilish</li>
+              <li>Tame Impala</li>
+              <li>Rosalia</li>
+              <li>Lil-Nas X</li>
+              <li>The 1975</li>
+              <li>and much more...</li>
+            </ul>
+            <a type="button" class="btn btn-secondary btn-sm p-2" href="https://global.lollapalooza.com/">Find out
+              More...</a>
+
+          </div>
+          <div class="col-md-5">
+            <img class="featurette-image2 float-right img-fluid mx-auto m-5" img src="../Images/FestivalPic3.jpg"
+              alt="FestivalPic 2">
+          </div>
+        </div>
+
+
+      </div>
+    </section>
+
+
+    <!--Footer-->
+    <section class="footer">
+      <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+          <p class="col-md-4 mb-0 text-muted">&copy; 2022 GigGuru</p>
+
+          <ul class="nav col-md-4 justify-content-end">
+            <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Home</a></li>
+            <li class="nav-item"><a href="concerts.html" class="nav-link px-2 text-muted">Concerts</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Festivals</a></li>
+            <li class="nav-item"><a href="news.html" class="nav-link px-2 text-muted">News</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Contact</a></li>
+          </ul>
+        </footer>
+      </div>
+    </section>
+    <script src="../Scripts/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"></script>
+  </section>
+</body>
+
+</html>

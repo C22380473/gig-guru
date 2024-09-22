@@ -1,0 +1,227 @@
+<!--
+Student name and number: Jenied Sayago, C22380473
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GigGuru</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="../CSS/style.css">
+</head>
+
+<body>
+  <section class="main">
+    <!--Navbar-->
+    <div class="progress-container sticky-top">
+      <nav class="navbar sticky-top navbar-expand-lg navbar-dark navbar-bg">
+        <div class="container-fluid">
+          <a class="navbar-brand m-2 p-1" href="index.html">GigGuru</a>
+          <button class="navbar-toggler m-1 " type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler"
+            aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarToggler">
+            <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="concerts.html">Concerts</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="festivals.html">Festivals</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="news.html">News</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="progress-bar" id="myBar"></div>
+    </div>
+
+    <!-- Full Page Image Header with Vertically Centered Content -->
+
+    <header class="masthead4">
+      <div class="container h-100">
+        <div class="row h-100 align-items-center">
+          <div class="col-12 text-center">
+            <h1 class="fw-light fw-color">Contact Us</h1>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Page Content -->
+
+    <section class="py-5">
+      <div class="container">
+
+
+        <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+            <li class="breadcrumb-item"><a href="concerts.html">Concerts</a></li>
+            <li class="breadcrumb-item"><a href="festivals.html">Festivals</a></li>
+            <li class="breadcrumb-item"><a href="news.html">News</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Contact</li>
+          </ol>
+        </nav>
+
+        <header>
+          <h2 class="featurette-heading">Any queries? <span class="text-muted">Send us a message.</span></h2>
+          <p class="lead">Fill out the contact form below to let us know what you're thinking...</p>
+        </header>
+
+
+        <!--Contact form-->
+
+        <p>Simply enter...
+        <ol>
+          <li>Your Name</li>
+          <li>Your Email</li>
+          <li>The Subject</li>
+          <li>Your Message</li>
+          <li>Your Country/City</li>
+        </ol>
+        And you're good to go!
+        </p>
+
+
+        <hr class="featurette-divider">
+        <section id="slidein">
+          <div class="container bg-dark text-light" style="padding: 80px 120px">
+            <h3 class="text-center">Contact Us</h3>
+            <p class="text-center"><em>Drop us a note!</em></p>
+
+            <div class="row test">
+              <div class="col-md-4">
+                <p class="text-center">Dublin, Ireland</p>
+                <p class="text-center">Phone: +00 1515151515</p>
+                <p class="text-center">Email: giguru@gmail.com</p>
+
+                <img src="../Images/Concertpic3.jpg" width="100%">
+
+              </div>
+              <div class="col-md-8">
+                <form class="row g-3">
+                  <div class="col-md-6">
+
+                    <label for="inputFirstName" class="form-label">First Name*</label>
+
+                    <input type="text" class="form-control" id="inputFirstName" placeholder="Jane" required>
+                  </div>
+                  <div class="col-md-6">
+                    <label for="inputLastName" class="form-label">Last Name*</label>
+                    <input type="text" class="form-control" id="inputLastName" placeholder="Doe" required>
+                  </div>
+
+                  <div class="col-12">
+                    <label for="inputEmail" class="form-label">Email*</label>
+                    <input type="email" class="form-control" id="inputEmail" placeholder="name@example.com" required>
+                  </div>
+
+
+                  <div class="col-12">
+                    <label for="inputSubject" class="form-label">Subject</label><br>
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1">
+                      <label class="form-check-label" for="inlineRadio1">Concert Related</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2">
+                      <label class="form-check-label" for="inlineRadio2">Festival Related</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3">
+                      <label class="form-check-label" for="inlineRadio3">News Related</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio4">
+                      <label class="form-check-label" for="inlineRadio4">Other</label>
+                    </div>
+                  </div>
+
+
+                  <div class="col-12">
+                    <label for="inputMessage" class="form-label">Message*</label>
+                    <textarea class="form-control" id="inputMessage" rows="5" placeholder="Write something here..."
+                      required></textarea>
+                  </div>
+
+                  <div class="col-md-6">
+                    <label for="inputCountry" class="form-label">Country</label>
+                    <select id="inputCountry" class="form-select" required>
+                      <option selected>Choose...</option>
+                      <option value="1">Brazil</option>
+                      <option value="2">Ireland</option>
+                      <option value="4">UK</option>
+                      <option value="5">US</option>
+                      <option value="6">Australia</option>
+                      <option value="7">Other</option>
+                    </select>
+                  </div>
+
+                  <div class="col-md-6">
+                    <label for="inputCity" class="form-label">City*</label>
+                    <input type="text" class="form-control" id="inputCity" placeholder="Your City" required>
+                  </div>
+
+                  <div class="col-12">
+                    <button type="submit" value="Submit" class="btn btn-primary contactsubmit">Submit</button>
+                    <div class="form-check form-check-inline m-2">
+                      <input class="form-check-input" type="checkbox" id="flexCheckDefault" required>
+                      <label class="form-check-label" for="flexCheckDefault">
+                        Accept Terms & Conditions*
+                      </label>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </section>
+
+      </div>
+    </section>
+
+
+    <!--Footer-->
+    <section class="footer">
+      <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+          <p class="col-md-4 mb-0 text-muted">&copy; 2022 GigGuru</p>
+
+          <ul class="nav col-md-4 justify-content-end">
+            <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Home</a></li>
+            <li class="nav-item"><a href="concerts.html" class="nav-link px-2 text-muted">Concerts</a></li>
+            <li class="nav-item"><a href="festivals.html" class="nav-link px-2 text-muted">Festivals</a></li>
+            <li class="nav-item"><a href="news.html" class="nav-link px-2 text-muted">News</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Contact</a></li>
+          </ul>
+        </footer>
+      </div>
+    </section>
+    <script src="../Scripts/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"></script>
+  </section>
+</body>
+
+</html>

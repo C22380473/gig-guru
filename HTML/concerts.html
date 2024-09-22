@@ -1,0 +1,655 @@
+<!--
+Student name and number: Jenied Sayago, C22380473
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GigGuru</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="../CSS/style.css">
+</head>
+
+<body>
+  <section class="main">
+    <!--Navbar-->
+    <div class="progress-container sticky-top">
+      <nav class="navbar sticky-top navbar-expand-lg navbar-dark navbar-bg">
+        <div class="container-fluid">
+          <a class="navbar-brand m-2 p-1" href="index.html">GigGuru</a>
+          <button class="navbar-toggler m-1 " type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler"
+            aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarToggler">
+            <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" aria-current="page" href="#">Concerts</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="festivals.html">Festivals</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="news.html">News</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+
+          </div>
+        </div>
+      </nav>
+
+      <div class="progress-bar" id="myBar"></div>
+    </div>
+
+    <!-- Full Page Image Header with Vertically Centered Content -->
+    <header class="masthead">
+      <div class="container h-100">
+        <div class="row h-100 align-items-center">
+          <div class="col-12 text-center">
+            <h1 class="fw-light fw-color">Upcoming Concerts</h1>
+            <p class="lead"></p>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Page Content -->
+
+    <section class="py-5">
+      <div class="container">
+
+        <nav aria-label="breadcrumb" style="--bs-breadcrumb-divider: '>';">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Concerts</li>
+            <li class="breadcrumb-item"><a href="festivals.html">Festivals</a></li>
+            <li class="breadcrumb-item"><a href="news.html">News</a></li>
+            <li class="breadcrumb-item"><a href="contact.html">Contact</a></li>
+          </ol>
+        </nav>
+
+        <header>
+          <h2 class="featurette-heading">Featuring the Hottest Gigs. <span class="text-muted">Coming Soon...
+              2023.</span></h2>
+          <p class="lead">Don't Miss Out! Here are some of the most anticipated upcoming shows of the world's biggest
+            artists...</p>
+          <p class="lead"></p>
+        </header>
+
+
+
+        <!--Carousel-->
+        <div class="row justify-content-center">
+          <div class="col-md-12">
+            <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"
+                  aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+
+                  <img class="d-block w-100" src="../Images/Taylor Swift.jpg" alt="Taylor Swift The Eras Tour">
+                  <div class="container">
+                    <div class="carousel-caption text-start">
+                      <h1>Taylor Swift</h1>
+                      <p></p>The Eras Tour (U.S Leg)
+                      <br> USA, March 2023<button type="button" class="btn btn-danger disabled m-3">SOLD
+                        OUT!</button><br><small class="fst-italic">(International Dates to be announced)</small>
+                      </p>
+                      <p><a class="btn btn-lg btn-primary " href="https://www.taylorswift.com/events/">More Info</a></p>
+                      <small class="fst-italic">(Image via Beth Garrabrant / Rolling Stone)</small>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="../Images/TheWeeknd.jpg" alt="The Weeknd After Hours Til Dawn Tour">
+                  <div class="container">
+                    <div class="carousel-caption">
+                      <h1>The Weeknd</h1>
+                      <p>After Hours Til Dawn Global Stadium Tour<br>Marlay Park, Dublin
+                        <br>28th June 2023
+                      </p>
+                      <p><button type="button" class="btn btn-warning disabled m-3">LOW AVAILABILITY!</button><a
+                          class="btn btn-lg btn-primary"
+                          href="https://www.ticketmaster.ie/the-weeknd-tickets/artist/1697014">Get Tickets</a></p>
+                      <small class="fst-italic">(Image via Brian Ziff / Rolling Stone)</small>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="../Images/The1975.jpg"
+                    alt="The 1975 being funny in a foreign language Tour">
+
+                  <div class="container">
+                    <div class="carousel-caption">
+                      <h1>The 1975</h1>
+                      <p>3Arena, Dublin
+                        <br>29th Jan 2023
+                      </p>
+                      <p><a class="btn btn-lg btn-primary"
+                          href="https://www.ticketmaster.ie/the-1975-tickets/artist/1765575">Get Tickets</a></p>
+                      <small class="fst-italic">(Image via Samuel Bradley / Pitchfork)</small>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="../Images/Harry Styles.jpg" alt="Harry Styles Love on Tour 2023">
+
+                  <div class="container">
+                    <div class="carousel-caption text-end">
+                      <h1>Harry Styles</h1>
+                      <p>Slane Castle, Meath
+                        <br>10th June 2023
+                      </p>
+                      <p><button type="button" class="btn btn-warning disabled m-3">LOW AVAILABILITY!</button><a
+                          class="btn btn-lg btn-primary"
+                          href="https://www.ticketmaster.ie/harry-styles-tickets/artist/5228999">Get Tickets</a></p>
+                      <small class="fst-italic">(Image via Lillie Eiger / Billboard)</small>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="../Images/The Arctic Monkeys.jpg" alt="The Arctic Monkeys 2023 Tour">
+
+                  <div class="container">
+                    <div class="carousel-caption">
+                      <h1>Arctic Monkeys</h1>
+
+                      <p>Marlay Park, Dublin
+                        <br>28th June 2023
+                      </p>
+                      <button type="button" class="btn btn-danger disabled m-3">SOLD OUT!</button>
+                      <p><a class="btn btn-lg btn-primary"
+                          href="https://www.ticketmaster.ie/search?q=the+arctic+monkeys">Get International Tickets</a>
+                      </p>
+                      <small class="fst-italic">(Image via Zachary Michael / Pitchfork)</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <hr class="featurette-divider">
+        <h2 class="featurette-heading display-5">Latest Concerts</h2>
+        <p class="lead display">Wanna find the latest shows in Ireland? Check them out below!</p>
+
+        <h2 class="underline">Current Gigs Near You:</h1>
+          <br>
+          <div class="table-responsive">
+            <table class="table table-hover">
+              <thead>
+                <tr class="table-dark">
+                  <th scope="col">Date</th>
+                  <th scope="col">Headliner</th>
+                  <th scope="col">Venue</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="table-secondary">
+                  <td class="p-5">OCT 11</td>
+                  <td><img hspace=20 ALIGN=top width=180 height=120 src="../Images/The Driver Era.jpg"
+                      alt="The Driver Era">
+                    The Driver Era<button type="button" class="btn btn-danger disabled m-5">SOLD OUT!</button><br><small
+                      class="fst-italic">(Image via Samuel Fisher / Rolling Stone)</small> </td>
+                  <td>Vicar St, Dublin <iframe
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d390.1745668059478!2d-6.278223895684335!3d53.34271778818353!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670c25a444a771%3A0xde57a9a3cfe408a7!2sVicar%20Street!5e0!3m2!1sen!2sie!4v1670096710390!5m2!1sen!2sie"
+                      ALIGN=right width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                      referrerpolicy="no-referrer-when-downgrade"></iframe></td>
+                </tr>
+                <tr class="table-secondary">
+                  <td class="p-5">NOV 30</td>
+                  <td><img hspace=20 ALIGN=top width=180 height=120 src="../Images/InhalerDub.jpg" alt="Inhaler">
+                    Inhaler <button type="button" class="btn btn-danger disabled m-5">SOLD OUT!</button><br><small
+                      class="fst-italic">(Image via Sarah Louise Bennett / Dork)</small></td>
+                  <td>3Olmpia Theatre, Dublin <iframe
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d468.8329611758038!2d-6.266201808591!3d53.344062142484795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670e9d3929c9cf%3A0x4b9616c5606c987f!2s3Olympia%20Theatre!5e0!3m2!1sen!2sie!4v1670097111487!5m2!1sen!2sie"
+                      ALIGN=right width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                      referrerpolicy="no-referrer-when-downgrade"></iframe></td>
+                </tr>
+                <tr class="table-secondary">
+                  <td class="p-5">DEC 01</td>
+                  <td><img hspace=20 ALIGN=top width=180 height=120 src="../Images/InhalerDub.jpg" alt="Inhaler">
+                    Inhaler <button type="button" class="btn btn-danger disabled m-5">SOLD OUT!</button><br><small
+                      class="fst-italic">(Image via Sarah Louise Bennett / Dork)</small></td>
+                  <td>3Olmpia Theatre, Dublin <iframe
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d468.8329611758038!2d-6.266201808591!3d53.344062142484795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670e9d3929c9cf%3A0x4b9616c5606c987f!2s3Olympia%20Theatre!5e0!3m2!1sen!2sie!4v1670097111487!5m2!1sen!2sie"
+                      ALIGN=right width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                      referrerpolicy="no-referrer-when-downgrade"></iframe></td>
+                </tr>
+                <tr class="table-secondary">
+                  <td class="p-5">DEC 03</td>
+                  <td><a href="https://www.ticketmaster.ie/the-vamps-tickets/artist/1434369"><img hspace=20 ALIGN=top
+                        width=180 height=120 src="../Images/TheVamps.jpg" alt="The Vamps">The Vamps</a> <button
+                      type="button" class="btn btn-danger disabled m-5">SOLD OUT!</button><br><small
+                      class="fst-italic">(Image via Jordan Rossi / CelebMix)</small></td>
+                  <td>3Arena, Dublin <iframe
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1411.3097750298239!2d-6.2292844886441765!3d53.3473605798723!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670ef2ba5bd0ff%3A0xc462cb2728687754!2s3Arena!5e0!3m2!1sen!2sie!4v1670097251723!5m2!1sen!2sie"
+                      ALIGN=right width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                      referrerpolicy="no-referrer-when-downgrade"></iframe></td>
+                </tr>
+                <tr class="table-secondary">
+                  <td class="p-5">DEC 03</td>
+                  <td><a href="https://www.ticketmaster.ie/fontaines-d-c-tickets/artist/5281142"><img hspace=20
+                        ALIGN=top width=180 height=120 src="../Images/Fontaines D.C.jpg" alt="Fontaines D.C.">Fontaines
+                      D.C.</a><button type="button" class="btn btn-danger disabled m-5">SOLD OUT!</button><br><small
+                      class="fst-italic">(Image via Sarah Louise Bennett / Dork)</small></td>
+                  <td>Leisureland, Galway <iframe
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1210.0061975554004!2d-9.08319509005796!3d53.259159683173145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x485b97acebd7cdef%3A0x4148f7fbe44b0e9!2sLeisureland!5e0!3m2!1sen!2sie!4v1670097336968!5m2!1sen!2sie"
+                      ALIGN=right width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                      referrerpolicy="no-referrer-when-downgrade"></iframe></td>
+                </tr>
+                <tr class="table-secondary">
+                  <td class="p-5">DEC 04</td>
+                  <td><a href="https://www.ticketmaster.ie/burna-boy-tickets/artist/5261305"><img hspace=20 ALIGN=top
+                        width=180 height=120 src="../Images/BurnaBoy.jpg" alt="Burna Boy">Burna Boy</a><br><small
+                      class="fst-italic">(Image via Daniel Obasi / Rolling Stone)</small></td>
+                  <td>3Arena, Dublin <iframe
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1411.3097750298239!2d-6.2292844886441765!3d53.3473605798723!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670ef2ba5bd0ff%3A0xc462cb2728687754!2s3Arena!5e0!3m2!1sen!2sie!4v1670097251723!5m2!1sen!2sie"
+                      ALIGN=right width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                      referrerpolicy="no-referrer-when-downgrade"></iframe></td>
+                </tr>
+                <tr>
+                  <td class="p-5">DEC 07</td>
+                  <td><a href="https://www.ticketmaster.ie/kehlani-tickets/artist/2061750"><img hspace=20 ALIGN=top
+                        width=180 height=120 src="../Images/kehlani.jpg" alt="Kehlani">Kehlani</a><button type="button"
+                      class="btn btn-warning disabled m-5">LOW AVAILABILITY!</button><br><small
+                      class="fst-italic">(Image via Erica Hernandez / Rolling Stone)</small></td>
+                  <td>3Olymia Theatre, Dublin <iframe
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d468.8329611758038!2d-6.266201808591!3d53.344062142484795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670e9d3929c9cf%3A0x4b9616c5606c987f!2s3Olympia%20Theatre!5e0!3m2!1sen!2sie!4v1670097111487!5m2!1sen!2sie"
+                      ALIGN=right width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                      referrerpolicy="no-referrer-when-downgrade"></iframe></td>
+                </tr>
+                <tr>
+                  <td class="p-5">DEC 15</td>
+                  <td><a href="https://www.ticketmaster.ie/kehlani-tickets/artist/2061750"><img hspace=20 ALIGN=top
+                        width=180 height=120 src="../Images/Westlife.jpg" alt="Westlife">Westlife</a><button
+                      type="button" class="btn btn-warning disabled m-5">LOW AVAILABILITY!</button><br><small
+                      class="fst-italic">(Image via IrishMirror)</small></td>
+                  <td>The SSE Arena, Belfast <iframe
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1322.7336033213942!2d-5.91636356458529!3d54.60366949234149!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486109ac427c9139%3A0x5dc70d6a2771cc63!2sSSE%20Arena%20Belfast!5e0!3m2!1sen!2sie!4v1670097408405!5m2!1sen!2sie"
+                      ALIGN=right width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                      referrerpolicy="no-referrer-when-downgrade"></iframe></td>
+                </tr>
+                <tr>
+                  <td class="p-5">DEC 31</td>
+                  <td><a href="https://www.ticketmaster.ie/kehlani-tickets/artist/2061750"><img hspace=20 ALIGN=top
+                        width=180 height=120 src="../Images/NewDad.jpg" alt="NewDad">NewDad</a><br><small
+                      class="fst-italic">(Image via Megan Doherty / Notion)</small></td>
+                  <td>Roisin Dubh, Galway <iframe
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d626.1762918213999!2d-9.058766609143202!3d53.270234992523235!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x485b96fbc5e3e525%3A0x461150b5fadfc9fe!2zUsOzaXPDrW4gRHViaA!5e0!3m2!1sen!2sie!4v1670097461261!5m2!1sen!2sie"
+                      ALIGN=right width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                      referrerpolicy="no-referrer-when-downgrade"></iframe></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <hr class="featurette-divider">
+
+          <h2 class="underline">Featured International Gigs:</h2>
+          <p class="lead display">No shows for you in Ireland or in the mood for a getaway trip? Check out some treats
+            that may interest you below!</p>
+
+
+          <hr class="featurette-divider">
+
+          <!--Carousel with controls-->
+          <div id="carouselExampleControls" class="carousel carousel-dark slide d-none d-sm-block"
+            data-bs-ride="carousel">
+            <div class="carousel-inner car-in2">
+              <div class="carousel-item active">
+                <div class="cards-wrapper">
+                  <div class="card cardf">
+                    <div class="image-wrapper">
+                      <img src="../Images/thebandcamino.jpg" alt="The Band CAMINO">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">The Band CAMINO</h5>
+                      <p><small class="fst-italic">(Image via Jimmy Fontaine/People)</small></p>
+                      <p class="card-text">Deck The Hall Ball with The Band CAMINO, OneRepbulic, Andy Grammer and Dermot
+                        Kennedy<br>USA, Dec 07 - Dec 13</p>
+                      <a href="https://www.ticketmaster.com/the-band-camino-tickets/artist/2442994"
+                        class="btn btn-primary">Get Tickets</a>
+                    </div>
+                  </div>
+                  <div class="card cardf">
+                    <div class="image-wrapper">
+                      <img src="../Images/Taylor Swift2.jpg" alt="Taylor Swift">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Taylor Swift</h5>
+                      <p><small class="fst-italic">(Image via Beth Garrabrant/Teen Vogue)</small></p>
+                      <p class="card-text">Are you Ready For It? The Eras Tour kicks off with the U.S Leg
+                        <br> USA, March 2023<br><small class="fst-italic">(International Dates to be announced)</small>
+                        <a href="https://www.taylorswift.com/events/" class="btn btn-primary">More Info</a>
+                        <button type="button" class="btn btn-danger disabled m-3">SOLD OUT!</button>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="card cardf">
+                    <div class="image-wrapper">
+                      <img src="../Images/ChaseAtlantic.jpg" alt="Chase Atlantic">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Chase Atlantic</h5>
+                      <p><small class="fst-italic">(Image via DistortedSound)</small></p>
+                      <p class="card-text">Cold Nights Tour<br>UK/AUS, Dec 2022 - Jan 2023<a
+                          href="https://chaseatlantic.com/pages/tour-dates" class="btn btn-primary">More Info</a>
+                        <button type="button" class="btn btn-warning disabled m-3">Selling Fast!</button>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="card cardf">
+                    <div class="image-wrapper">
+                      <img src="../Images/wetleg.jpg" alt="Wet Leg">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Wet Leg</h5>
+                      <p><small class="fst-italic">(Image via Hollie Fernando/Press)</small></p>
+                      <p class="card-text">Join Wet Let as they tour with various artists like Harry Styles, Faux Real
+                        Pulp and Imagine Dragons.<br>US/JP/EU/UK, Dec - Jun 2023</p>
+                      <a href="https://www.ticketmaster.com/wet-leg-tickets/artist/1859188" class="btn btn-primary">Get
+                        Tickets</a>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="cards-wrapper">
+                  <div class="card cardf">
+                    <div class="image-wrapper">
+                      <img src="../Images/Wallows.jpg" alt="Wallows">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Wallows</h5>
+                      <p><small class="fst-italic">(Image via Nikoli Partiyeli/Billboard)</small></p>
+                      <p class="card-text">Tell Me That It's Over Tour<br>UK/EU, Dec 2022 - Jan 2023 <a
+                          href="https://www.ticketmaster.com/wallows-tickets/artist/2430902"
+                          class="btn btn-primary">More Info</a><button type="button"
+                          class="btn btn-warning disabled m-3">Selling Fast!</button></p>
+
+                    </div>
+                  </div>
+                  <div class="card cardf">
+                    <div class="image-wrapper">
+                      <img src="../Images/5SOS.jpg" alt="5 Seconds of Summer">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">5 Seconds of Summer</h5>
+                      <p><small class="fst-italic">(Image via Andy Deluca/Rolling Stone)</small></p>
+                      <p class="card-text">Catch 5 Seconds of Summer as they end their Take My Hand Tour back home in
+                        Australia. <br> AUS, Dec 06 - Dec 10
+                        <a href="https://www.ticketmaster.com/5-seconds-of-summer-tickets/artist/1778118"
+                          class="btn btn-primary">Get Tickets</a> <button type="button"
+                          class="btn btn-warning disabled m-3">Selling Fast!</button>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="card cardf">
+                    <div class="image-wrapper">
+                      <img src="../Images/Bruno Mars.jpg" alt="Bruno Mars">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Bruno Mars</h5>
+                      <p><small class="fst-italic">(Image via TEG Dainty/Timeout)</small></p>
+                      <p class="card-text">Bring your funk and groove for an evening with Bruno Mars at Dolby Live - Las
+                        Vegas.<br>USA, Dec 2022 - Feb 2023
+                        <a href="https://www.ticketmaster.com/bruno-mars-tickets/artist/1466801"
+                          class="btn btn-primary">Get Tickets</a><button type="button"
+                          class="btn btn-warning disabled m-3">Selling Fast!</button>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="card cardf">
+                    <div class="image-wrapper">
+                      <img src="../Images/Beabadoobee.jpg" alt="Beabadoobee">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Beabadoobee</h5>
+                      <p><small class="fst-italic">(Image via Mark Cant/Rolling Stone Uk)</small></p>
+                      <p class="card-text">
+                        Beatopia Tour <br>EU, Mar 2023</p>
+                      <a href="https://www.ticketmaster.com/beabadoobee-tickets/artist/2618990"
+                        class="btn btn-primary">Get Tickets</a>
+                      </p>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev ccp2" type="button" data-bs-target="#carouselExampleControls"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next ccn2" type="button" data-bs-target="#carouselExampleControls"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <!--Carousel for small screen-->
+          <div id="carouselExampleControlsSmallScreen" class="carousel carousel-dark slide d-sm-none"
+            data-bs-ride="carousel">
+            <div class="carousel-inner car-in2">
+              <div class="carousel-item active">
+                <div class="card cardf">
+                  <div class="image-wrapper">
+                    <img src="../Images/thebandcamino.jpg" alt="The Band CAMINO">
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">The Band CAMINO</h5>
+                    <p><small class="fst-italic">(Image via Jimmy Fontaine/People)</small></p>
+                    <p class="card-text">Deck The Hall Ball with The Band CAMINO, OneRepbulic, Andy Grammer and Dermot
+                      Kennedy<br>USA, Dec 07 - Dec 13</p>
+                    <a href="https://www.ticketmaster.com/the-band-camino-tickets/artist/2442994"
+                      class="btn btn-primary">Get Tickets</a>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="card cardf">
+                  <div class="image-wrapper">
+                    <img src="../Images/Taylor Swift2.jpg" alt="Taylor Swift">
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Taylor Swift</h5>
+                    <p><small class="fst-italic">(Image via Beth Garrabrant/Teen Vogue)</small></p>
+                    <p class="card-text">Are you Ready For It? The Eras Tour kicks off with the U.S Leg
+                      <br> USA, March 2023<br><small class="fst-italic">(International Dates to be announced)</small> <a
+                        href="https://www.taylorswift.com/events/" class="btn btn-primary">More Info</a>
+                      <button type="button" class="btn btn-danger disabled m-3">SOLD OUT!</button>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="card cardf">
+                  <div class="image-wrapper">
+                    <img src="../Images/ChaseAtlantic.jpg" alt="Chase Atlantic">
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Chase Atlantic</h5>
+                    <p><small class="fst-italic">(Image via DistortedSound)</small></p>
+                    <p class="card-text">Cold Nights Tour<br>UK/AUS, Dec 2022 - Jan 2023<a
+                        href="https://chaseatlantic.com/pages/tour-dates" class="btn btn-primary">More Info</a>
+                      <button type="button" class="btn btn-warning disabled m-3">Selling Fast!</button>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="card cardf">
+                  <div class="image-wrapper">
+                    <img src="../Images/wetleg.jpg" alt="Wet Leg">
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Wet Leg</h5>
+                    <p><small class="fst-italic">(Image via Hollie Fernando/Press)</small></p>
+                    <p class="card-text">Join Wet Let as they tour with various artists like Harry Styles, Faux Real
+                      Pulp and Imagine Dragons.<br>US/JP/EU/UK, Dec - Jun 2023</p>
+                    <a href="https://www.ticketmaster.com/wet-leg-tickets/artist/1859188" class="btn btn-primary">Get
+                      Tickets</a>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="card cardf">
+                  <div class="image-wrapper">
+                    <img src="../Images/Wallows.jpg" alt="Wallows">
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Wallows</h5>
+                    <p><small class="fst-italic">(Image via Nikoli Partiyeli/Billboard)</small></p>
+                    <p class="card-text">Tell Me That It's Over Tour<br>UK/EU, Dec 2022 - Jan 2023 <a
+                        href="https://www.ticketmaster.com/wallows-tickets/artist/2430902" class="btn btn-primary">More
+                        Info</a><button type="button" class="btn btn-warning disabled m-3">Selling Fast!</button></p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="card cardf">
+                  <div class="image-wrapper">
+                    <img src="../Images/5SOS.jpg" alt="5 Seconds of Summer">
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">5 Seconds of Summer</h5>
+                    <p><small class="fst-italic">(Image via Andy Deluca/Rolling Stone)</small></p>
+                    <p class="card-text">Catch 5 Seconds of Summer as they end their Take My Hand Tour back home in
+                      Australia. <br> AUS, Dec 06 - Dec 10
+                      <a href="https://www.ticketmaster.com/5-seconds-of-summer-tickets/artist/1778118"
+                        class="btn btn-primary">Get Tickets</a> <button type="button"
+                        class="btn btn-warning disabled m-3">Selling Fast!</button>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="card cardf">
+                  <div class="image-wrapper">
+                    <img src="../Images/Bruno Mars.jpg" alt="Bruno Mars">
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Bruno Mars</h5>
+                    <p><small class="fst-italic">(Image via TEG Dainty/Timeout)</small></p>
+                    <p class="card-text">Bring your funk and groove for an evening with Bruno Mars at Dolby Live - Las
+                      Vegas.<br>USA, Dec 2022 - Feb 2023
+                      <a href="https://www.ticketmaster.com/bruno-mars-tickets/artist/1466801"
+                        class="btn btn-primary">Get Tickets</a><button type="button"
+                        class="btn btn-warning disabled m-3">Selling Fast!</button>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="card cardf">
+                  <div class="image-wrapper">
+                    <img src="../Images/Beabadoobee.jpg" alt="Beabadoobee">
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Beabadoobee</h5>
+                    <p><small class="fst-italic">(Image via Mark Cant/Rolling Stone Uk)</small></p>
+                    <p class="card-text">
+                      Beatopia Tour <br>EU, Mar 2023</p>
+                    <a href="https://www.ticketmaster.com/beabadoobee-tickets/artist/2618990"
+                      class="btn btn-primary">Get Tickets</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev ccp2" type="button"
+              data-bs-target="#carouselExampleControlsSmallScreen" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next ccn2" type="button"
+              data-bs-target="#carouselExampleControlsSmallScreen" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+          <hr class="featurette-divider">
+
+          <h2 class="featurette-heading">Gig Randomiser. <span class="text-muted">Your choice made for you.</span></h2>
+          <p class="lead">Can't make up your mind? Don't worry we got you covered. Just click the randomiser button and
+            we'll choose a random gig for you to go to!</p>
+          <p class="lead"></p>
+
+          <header class="flex container my-3 d-flex align-items-center justify-content-center">
+            <h3 class="fw-light">Random Gig Generator</h3>
+          </header>
+
+          <!--cards-->
+          <div class="container my-3 d-flex align-items-center justify-content-center">
+            <div class="card cardno" style="width: 20rem;">
+              <div class="card-body">
+                <h5 class="card-title card-titlerdm fs-5">Find your Artist</h5>
+                <p class="card-text the-gig fs-4">Click the button below!</p>
+                <button class="btn btn-dark btn-gig">Get Gig</button>
+              </div>
+            </div>
+          </div>
+
+
+      </div>
+    </section>
+
+    <!--Footer-->
+    <section class="footer">
+      <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+          <p class="col-md-4 mb-0 text-muted">&copy; 2022 GigGuru</p>
+
+          <ul class="nav col-md-4 justify-content-end">
+            <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Concerts</a></li>
+            <li class="nav-item"><a href="festivals.html" class="nav-link px-2 text-muted">Festivals</a></li>
+            <li class="nav-item"><a href="news.html" class="nav-link px-2 text-muted">News</a></li>
+            <li class="nav-item"><a href="contact.html" class="nav-link px-2 text-muted">Contact</a></li>
+          </ul>
+        </footer>
+      </div>
+    </section>
+    <script src="../Scripts/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"></script>
+  </section>
+</body>
+
+</html>
